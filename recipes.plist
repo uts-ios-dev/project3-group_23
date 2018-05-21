@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Moroccan Spice Veggie Burger</string>
+		<key>tag</key>
+		<string>vegeterian</string>
+		<key>energy</key>
+		<string>187 Cal</string>
+		<key>time</key>
+		<string>30 Mins</string>
+		<key>ingredients</key>
+		<array>
+			<string>1,clove garlic</string>
+			<string>1,bunch parsley</string>
+			<string>1,tin red kidney beans</string>
+			<string>1,unit roma tomato</string>
+			<string>1,unit cucumber</string>
+			<string>1,unit carrot</string>
+			<string>1,head cos lettuce</string>
+			<string>½,sachet souk market spice blend</string>
+			<string>1,packet sesame seeds</string>
+			<string>½,packet fine breadcrumbs</string>
+			<string>1,tub mayonnaise</string>
+			<string>1,tub Beetroot, Pomegranate &amp; Walnut dip</string>
+			<string>2,unit bake-at-home burger buns</string>
+		</array>
+		<key>steps</key>
+		<string>1.Preheat the oven to 180°C/160°C fan-forced. Drain and rinse the red kidney beans and place in a large bowl. Peel and crush the garlic. Finely chop the parsley leaves. Finely slice the Roma tomato. Finely slice the cucumber. Grate the carrot (unpeeled). Roughly chop the cos lettuce.					
+2.Using a potato masher or a fork, mash the kidney beans as much as you can. Add the garlic, Souk Market spice blend (use suggested amount), 1/2 the parsley, the sesame seeds, salt (use suggested amount), egg and fine breadcrumbs (use suggested amount) to the large bowl with the kidney beans. Mix well then shape the bean mixture into patties slightly larger than your buns (you should get 1 patty per person). Set aside on a plate, ready to cook.				
+3.In a small bowl, combine the mayonnaise and beetroot, walnut and pomegranate dip. Set aside.					
+4.Heat a good drizzle of olive oil in a large frying pan over a medium-high heat. Cook the patties for 4-5 minutes on each side, or until golden on the outside and firm.
+TIP: Don’t be tempted to flip your veggie patty early, letting it form a crust will prevent it from breaking apart when you flip it! In the last 5 minutes of the veggie patty cooking time, place the bake-at-home burger buns directly onto a wire rack in the oven for 3 minutes, or until heated through. Slice in half.				
+5.While the patties are cooking, combine the vinegar and olive oil (1 tbs for 2 people / 2 tbs for 4 people) in a medium bowl. Reserve 1/4 of each of the tomato, cucumber, carrot and cos lettuce for the burgers, and add the remaining to the medium bowl, along with the parsley. Toss to coat. TIP: Toss your salad just prior to serving to prevent soggy leaves.					
+6.Add a handful of cos lettuce to the base of the burger bun. Add a Moroccan spice veggie patty and spread over some of the beetroot-walnut mayo. Top with the remaining tomato, cucumber and carrot. Serve the salad on the side.</string>
+		<key>image</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Speedy Lemon Basil Pesto Penne</string>
+		<key>tag</key>
+		<string>vegetarian</string>
+		<key>energy</key>
+		<string>1654 Cal</string>
+		<key>time</key>
+		<string>25 Mins</string>
+		<key>ingredients</key>
+		<array>
+			<string>2,clove garlic</string>
+			<string>1,packet penne</string>
+			<string>1,unit red onion</string>
+			<string>1,tub tranditional pesto</string>
+			<string>1,packet silvered almonds</string>
+			<string>1,unit lime</string>
+			<string>1,bunch broccolini</string>
+			<string>1,block fetta cheese</string>
+			<string>1,bag mixed salad leaves</string>
+		</array>
+		<key>steps</key>
+		<string>1.Bring a large saucepan of salted water to the boil. Roughly chop the broccolini into 2 cm pieces. Finely slice the red onion. Finely grate the garlic. Slice the lemon into wedges and juice to get 1 tbs for 2 people / 2 tbs for 4 people.					
+2.Add the penne to the saucepan of boiling water and cook for 10 minutes, or until ‘al dente’. In the last 2 minutes of cook time add the broccolini and cook until tender. Drain and set aside in the colander.					
+3.While the pasta is cooking, place a large frying pan over a medium-high heat. Add the slivered almonds and toast, stirring, for 3-4 minutes, until golden. Remove from the pan and set aside.					
+4.Return the pan to a medium-high heat with a drizzle of olive oil. Add the onion and garlic and cook for 5 minutes, stirring regularly, or until the onion is softened. Add the cooked broccolini and penne, traditional pesto, lemon juice, salt (use suggested amount) and a good pinch of pepper. Crumble in 1/2 the fetta and toss the pasta together until well coated.					
+5.In a medium bowl, combine the balsamic vinegar, honey and olive oil (1 tbs for 2 people / 2 tbs for 4 people). Add the mixed salad leaves and slivered almonds to the bowl and toss to coat in the dressing. Tip: Toss the salad just before serving to prevent soggy leaves.					
+6.Divide the lemon basil pesto penne with broccolini and fetta between bowls. Crumble over the remaining fetta and serve the salad on the side.					</string>
+		<key>image</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Beef &amp; Pumpkin Massaman Curry</string>
+		<key>tag</key>
+		<string>normal</string>
+		<key>energy</key>
+		<string>174 Cal</string>
+		<key>time</key>
+		<string>40 Mins</string>
+		<key>ingredients</key>
+		<array>
+			<string>2,clove garlic</string>
+			<string>1,steak</string>
+			<string>1,unit red onion</string>
+			<string>1,bunch thyme</string>
+			<string>1,bunch coriander	</string>
+			<string>1,unit lemon</string>
+			<string>½,coconut milk</string>
+			<string>300,g pumpkin</string>
+			<string>¾,cup Jasmine rice</string>
+		</array>
+		<key>steps</key>
+		<string>1.To prepare the ingredients, trim the beef rump fat. Finely slice the brown onion and slice the lime into wedges. Peel and crush the garlic. Remove the pumpkin skin and cut into 2 cm pieces. Rinse the Jasmine rice well. Pick the coriander leaves.					
+2.Rub the premium beef rump with half of the olive oil and season with salt and pepper. Heat a deep sided frying pan over a medium-high heat. Add the beef and cook for 2 minutes on each side for medium rare, or until cooked to your liking. Transfer to a plate and cover with foil.					
+3.In the same frying pan, heat the remaining olive oil over a medium-high heat. Add the brown onion and cook for 5 minutes, or until the onion has softened. Add the garlic and Massaman curry paste and cook for 2 minutes, stirring regularly to break up the curry paste. Add a splash of water to deglaze the pan and then add the pumpkin and cook, stirring, for a further 2 minutes until just tender and coated in the spice.					
+4.Add the coconut milk and the hot water. Stir to combine and bring to the boil. Reduce the heat to medium and cover with a lid. Simmer the curry for 10 minutes or until the pumpkin is soft when pricked with a knife. Tip: If you don’t have a lid, carefully cover the pan with foil.					
+5.Meanwhile, place the Jasmine rice and water in a medium saucepan. Bring the water to the boil over a high heat. Reduce the heat to medium and simmer for 10 minutes or until soft. Drain.					
+6.Thinly slice the beef and, just before serving, stir it through the curry sauce for 1 minute to heat through.					</string>
+		<key>image</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Creamy One-Pot Loaded Lentil Bowl</string>
+		<key>tag</key>
+		<string>normal</string>
+		<key>energy</key>
+		<string>254 Cal</string>
+		<key>time</key>
+		<string>30 Mins</string>
+		<key>ingredients</key>
+		<array>
+			<string>2,clove garlic</string>
+			<string>1,unit leek</string>
+			<string>1,unit brown onion</string>
+			<string>1,bunch thyme</string>
+			<string>1,unit rosemary panini</string>
+			<string>1,bag silverbeet</string>
+			<string>1,packet shaved Parmesan cheese</string>
+			<string>1,unit carrot</string>
+			<string>1,tin lentils</string>
+			<string>1,cube vegetable stock</string>
+			<string>½,tub cooking cream</string>
+		</array>
+		<key>steps</key>
+		<string>1.Preheat the oven to 220ºC/200ºC fan-forced. Peel and crush the garlic. Lightly soften the butter in a small bowl in the microwave (or in a small saucepan on the stove). Finely chop the brown onion. Thinly slice the leek. Cut the carrot (unpeeled) into 0.5 cm half-moons. Pick the thyme leaves. Drain and rinse the lentils.
+2.Add 1/2 the garlic to the butter. Cut slices into the rosemary panini, 2 cm apart, cutting almost to the base but not the whole way through. Spread the garlic butter between each slice, then wrap the bread in foil and bake for 10-12 minutes, or until the bread is warmed through. Turn off the oven and leave the garlic bread inside to keep warm until serving.	
+3.While the garlic bread is baking, heat a drizzle of olive oil in a large saucepan over a medium-high heat. Add the onion, leek and carrot to the saucepan and season with salt and pepper. Cook, stirring, for 3-4 minutes or until softened. Add the thyme and remaining garlic and cook for a further 1-2 minutes or until fragrant.		
+4.Add the lentils, water (see ingredients list) and crumble in the vegetable stock cube. Bring to the boil, then reduce the heat to medium and simmer for 4 minutes or until reduced by a third.
+5.While the lentils are simmering, finely chop the silverbeet. Once the lentils have reduced, add the silverbeet and cooking cream (see ingredients list) to the saucepan and cook, stirring, for 2-3 minutes or until the silverbeet is wilted. Remove the pan from the heat and season to taste with salt and pepper
+6.Divide the creamy one-pot veggie loaded lentils between bowls and sprinkle with the shaved Parmesan cheese. Serve with the rosemary garlic bread.</string>
+		<key>image</key>
+		<string>4</string>
+	</dict>
+</array>
+</plist>
