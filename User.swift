@@ -1,10 +1,4 @@
-//
-//  User.swift
-//  Gfintech
-//
-//  Created by Luochun on 2017/2/20.
-//  Copyright © 2017年 Mantis. All rights reserved.
-//
+
 
 import Foundation
 import Realm
