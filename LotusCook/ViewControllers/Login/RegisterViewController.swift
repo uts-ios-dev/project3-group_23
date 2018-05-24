@@ -2,7 +2,7 @@
 //  RegisterViewController.swift
 //  LotusCook
 //
-//  Created by Zhuo Xiaoman  on 2018/5/20.
+//  Created by Luochun on 2018/5/20.
 //  Copyright © 2018年 Elase. All rights reserved.
 //
 
