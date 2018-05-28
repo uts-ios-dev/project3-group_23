@@ -10,14 +10,14 @@ import Foundation
 import Realm
 import RealmSwift
 
-class Recipe: Object {
-    @objc dynamic var name: String = ""
-    @objc dynamic var tag: String = ""
-    @objc dynamic var energy: String = ""
-    @objc dynamic var time: String = ""
+class Recipe {
+    var name: String = ""
+    var tag: String = ""
+    var energy: String = ""
+    var time: String = ""
     var ingredients: [(String, String)] = []
-    @objc dynamic var steps: String = ""
-    @objc dynamic var image: String = ""
+    var steps: String = ""
+    var image: String = ""
     
 }
 
@@ -45,6 +45,15 @@ extension Recipe {
         return res
     }
     
+    /// 名字搜索
+    static func getRecipes(_ name: String) -> Recipe? {
+        var items = Recipe.getAllRecipes()
+        items = items.filter({
+            $0.name == name
+        })
+        return items.count > 0 ? items[0] : nil
+    }
+    
     /// 关键字搜索
     static func getAllRecipesBy(_ words: String) -> [Recipe] {
         var items = Recipe.getAllRecipes()
@@ -56,9 +65,15 @@ extension Recipe {
     
 }
 
+func == (lhs: Recipe, rhs: Recipe) -> Bool
+{
+    return lhs.name == rhs.name
+}
+
+
 class Meals: Object {
     @objc dynamic var email: String?
-    @objc dynamic var recipe: Recipe?
+    @objc dynamic var recipe: String?
     @objc dynamic var copies: Int = 1
     
     /// 主键
@@ -79,7 +94,7 @@ func == (lhs: Meals, rhs: Meals) -> Bool
 
 extension Meals {
     @discardableResult
-    static func save(_ email: String, recipe: Recipe, copies: Int = 1) -> Meals {
+    static func save(_ email: String, recipe: String, copies: Int = 1) -> Meals {
         let item = Meals()
         item.createdTime = String(Date().timeIntervalSince1970)
         
@@ -88,7 +103,7 @@ extension Meals {
         item.copies = copies
         
         var exsit = false
-        for go in User.getAllUsers() {
+        for go in Meals.getAllMeals() {
             if go == item {
                 exsit = true
                 break
@@ -128,6 +143,15 @@ extension Meals {
             realm.delete(self)
         }
         
+    }
+    
+    static func deleteBy(_ recipe: String) {
+        let all = Meals.getAllMeals()
+        all.forEach({
+            if $0.recipe == recipe {
+                $0.delete()
+            }
+        })
     }
     
     

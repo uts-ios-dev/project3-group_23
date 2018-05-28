@@ -12,11 +12,26 @@ class RecipesViewController: MTBaseViewController {
     
     var datas: [Recipe] = Recipe.getAllRecipes()
     
+    var myMeals = Meals.getMealsBy(User.shared().email!)
+    
     @IBOutlet weak var table: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Recipes"
         
+        addNavigationBarRightButton(self, action: #selector(toSearch), image: #imageLiteral(resourceName: "search"))
+        
+        
+        table.registerNib(cellClass: RecipesCell.self)
+        
+//        Meals.getMealsBy(User.shared().email!).forEach({$0.delete()})
+//        myMeals = Meals.getMealsBy(User.shared().email!)
+    }
+    
+    @objc func toSearch() {
+        let vc = UIStoryboard.Scene.search
+        vc.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
@@ -48,49 +63,20 @@ extension RecipesViewController : UITableViewDataSource {
 
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! RecipesCell
+        let cell = tableView[indexPath] as! RecipesCell
         
         cell.info = datas[indexPath.row]
         
+        let have = myMeals.filter({$0.recipe == datas[indexPath.row].name})
+        cell.button.isSelected = have.count > 0
+        
+        cell.action = {
+            self.myMeals = Meals.getMealsBy(User.shared().email!)
+            tableView.reloadData()
+        }
         return cell
         
     }
 }
 
-class RecipesCell: UITableViewCell {
-    
-    @IBOutlet weak var iconImageView: UIImageView!
-    
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var ingredientNumberLabel: UILabel!
-    @IBOutlet weak var energyLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
-    
-    @IBOutlet weak var button: UIButton!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-    }
-    
-    var info: Recipe? {
-        didSet {
-            if let info = info {
-                iconImageView.image = UIImage(named: info.image)
-                titleLabel.text  = info.name
-                ingredientNumberLabel.text  = String(format: "%d ingredients",  info.ingredients.count)
-                energyLabel.text  = info.energy
-                timeLabel.text  = info.time
-            }
-        }
-    }
-    
-    @IBAction func addToCart(_ sender: UIButton) {
-        
-    }
-    
-    static var  height: CGFloat {
-        return 150
-    }
-    
-}
+

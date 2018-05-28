@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -72,6 +72,10 @@
 		4BD795C020B1BCE500E6B594 /* DefaultStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD795BE20B1BCE500E6B594 /* DefaultStatusView.swift */; };
 		4BD795C120B1BCE500E6B594 /* StatusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD795BF20B1BCE500E6B594 /* StatusProvider.swift */; };
 		4BD795C320B1CF6100E6B594 /* MTAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD795C220B1CF6100E6B594 /* MTAlert.swift */; };
+		4BDE337D20B7AB2100740DB9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE337C20B7AB2100740DB9 /* SearchViewController.swift */; };
+		4BDE337F20B7C30600740DB9 /* UITableView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE337E20B7C30600740DB9 /* UITableView+ext.swift */; };
+		4BDE338220B7C3ED00740DB9 /* RecipesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE338020B7C3ED00740DB9 /* RecipesCell.swift */; };
+		4BDE338320B7C3ED00740DB9 /* RecipesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE338120B7C3ED00740DB9 /* RecipesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +155,10 @@
 		4BD795BE20B1BCE500E6B594 /* DefaultStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultStatusView.swift; sourceTree = "<group>"; };
 		4BD795BF20B1BCE500E6B594 /* StatusProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusProvider.swift; sourceTree = "<group>"; };
 		4BD795C220B1CF6100E6B594 /* MTAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAlert.swift; sourceTree = "<group>"; };
+		4BDE337C20B7AB2100740DB9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4BDE337E20B7C30600740DB9 /* UITableView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ext.swift"; sourceTree = "<group>"; };
+		4BDE338020B7C3ED00740DB9 /* RecipesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCell.swift; sourceTree = "<group>"; };
+		4BDE338120B7C3ED00740DB9 /* RecipesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +268,7 @@
 				4B341D5920AD4F6F00456E59 /* MineViewController.swift */,
 				4B341D5B20AD4F6F00456E59 /* MealsViewController.swift */,
 				4BD795AD20B191A400E6B594 /* ProfileEditViewController.swift */,
+				4BDE337C20B7AB2100740DB9 /* SearchViewController.swift */,
 				4B341D5E20AD4F6F00456E59 /* RecipesViewController.swift */,
 				4BD795A420B172EA00E6B594 /* RecipeDetailViewController.swift */,
 				4B341D5F20AD4F6F00456E59 /* ShoppingViewController.swift */,
@@ -325,6 +334,9 @@
 				4BD795B820B1AADA00E6B594 /* GMStepper */,
 				4BD795BB20B1B8FE00E6B594 /* UserDefaults+MTExt.swift */,
 				4BD795AA20B18DDD00E6B594 /* UIView+Shadow.swift */,
+				4BDE337E20B7C30600740DB9 /* UITableView+ext.swift */,
+				4BDE338020B7C3ED00740DB9 /* RecipesCell.swift */,
+				4BDE338120B7C3ED00740DB9 /* RecipesCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -390,12 +402,11 @@
 				TargetAttributes = {
 					4B341D2820AD4EF800456E59 = {
 						CreatedOnToolsVersion = 9.3;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 4B341D2420AD4EF800456E59 /* Build configuration list for PBXProject "LotusCook" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -422,6 +433,7 @@
 				4BD7959E20B15CAE00E6B594 /* 2.png in Resources */,
 				4BD795A920B1761900E6B594 /* 3.png in Resources */,
 				4B341D3720AD4EF900456E59 /* LaunchScreen.storyboard in Resources */,
+				4BDE338320B7C3ED00740DB9 /* RecipesCell.xib in Resources */,
 				4BD795A820B1761900E6B594 /* 4.png in Resources */,
 				4BD7959C20B15C9700E6B594 /* 1.png in Resources */,
 				4B341D3420AD4EF900456E59 /* Assets.xcassets in Resources */,
@@ -439,6 +451,7 @@
 				4BD795C020B1BCE500E6B594 /* DefaultStatusView.swift in Sources */,
 				4B341D7120AD4F7000456E59 /* UIViewController+STPopup.swift in Sources */,
 				4BD795BA20B1AADA00E6B594 /* GMStepper.swift in Sources */,
+				4BDE338220B7C3ED00740DB9 /* RecipesCell.swift in Sources */,
 				4B341D8020AD4F7000456E59 /* DateLinkageViewController.swift in Sources */,
 				4B341D6C20AD4F7000456E59 /* UIResponder+STPopup.swift in Sources */,
 				4B341D7F20AD4F7000456E59 /* TabbarContentView.swift in Sources */,
@@ -466,6 +479,7 @@
 				4BD795A520B172EA00E6B594 /* RecipeDetailViewController.swift in Sources */,
 				4B341D8520AD4F7000456E59 /* MTNavigationViewController.swift in Sources */,
 				4BD795C320B1CF6100E6B594 /* MTAlert.swift in Sources */,
+				4BDE337D20B7AB2100740DB9 /* SearchViewController.swift in Sources */,
 				4BD7959420B1510400E6B594 /* User.swift in Sources */,
 				4B341D6920AD4F7000456E59 /* STPopupControllerTransitioningSlideVertical.swift in Sources */,
 				4B341D7920AD4F7000456E59 /* Config.swift in Sources */,
@@ -474,6 +488,7 @@
 				4B341D6A20AD4F7000456E59 /* STPopupControllerTransitioningFade.swift in Sources */,
 				4BD795AB20B18DDD00E6B594 /* UIView+Shadow.swift in Sources */,
 				4B341D7C20AD4F7000456E59 /* MineViewController.swift in Sources */,
+				4BDE337F20B7C30600740DB9 /* UITableView+ext.swift in Sources */,
 				4B341D7520AD4F7000456E59 /* ESTabBarItem.swift in Sources */,
 				4B341D7720AD4F7000456E59 /* ESTabBar.swift in Sources */,
 				4B341D6D20AD4F7000456E59 /* STPopupLeftBarItem.swift in Sources */,
@@ -613,7 +628,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -632,7 +648,10 @@
 				);
 				INFOPLIST_FILE = LotusCook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-Elase.LotusCook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -654,7 +673,10 @@
 				);
 				INFOPLIST_FILE = LotusCook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-Elase.LotusCook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

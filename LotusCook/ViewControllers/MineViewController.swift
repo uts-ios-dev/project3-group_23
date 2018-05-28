@@ -19,7 +19,6 @@ class MineViewController: MTBaseViewController {
         title = "Mine"
         addNavigationBarRightButton(self, action: #selector(editUserInfo), image: #imageLiteral(resourceName: "edit"))
         
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,10 +39,10 @@ class MineViewController: MTBaseViewController {
     
     
     @IBAction func logout(_ sender: UIButton) {
-        MTAlert(title: "are you sure log out", message: "", preferredStyle: .alert)
-            .addAction(title: "取消", style: .cancel) { (_) in
+        MTAlert(title: "Sign out?", message: "", preferredStyle: .alert)
+            .addAction(title: "Cancel", style: .cancel) { (_) in
                 
-            }.addAction(title: "确定", style: .default) { (_) in
+            }.addAction(title: "Confirm", style: .default) { (_) in
                 AppDelegate.shared.logout()
             }.show()
         

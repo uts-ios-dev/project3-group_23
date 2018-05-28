@@ -63,6 +63,9 @@ public extension UIStoryboard {
         static var recipes: RecipesViewController {
             return UIStoryboard.main.instantiateViewController(withIdentifier: "RecipesViewController") as! RecipesViewController
         }
+        static var search: SearchViewController {
+            return UIStoryboard.main.instantiateViewController(withIdentifier: "SearchViewController") as! SearchViewController
+        }
         
         static var shopping: ShoppingViewController {
             return UIStoryboard.main.instantiateViewController(withIdentifier: "ShoppingViewController") as! ShoppingViewController
