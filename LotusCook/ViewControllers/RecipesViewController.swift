@@ -1,10 +1,4 @@
-//
-//  RecipesViewController.swift
-//  HealthBot
-//
-//  Created by Luochun on 2018/5/15.
-//  Copyright © 2018年 SpiderMan. All rights reserved.
-//
+
 
 import UIKit
 

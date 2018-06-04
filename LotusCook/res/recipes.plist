@@ -20,9 +20,9 @@
 			<string>1,unit cucumber</string>
 			<string>1,unit carrot</string>
 			<string>1,head cos lettuce</string>
-			<string>½,sachet souk market spice blend</string>
+			<string>0.5,sachet souk market spice blend</string>
 			<string>1,packet sesame seeds</string>
-			<string>½,packet fine breadcrumbs</string>
+			<string>0.5,packet fine breadcrumbs</string>
 			<string>1,tub mayonnaise</string>
 			<string>1,tub Beetroot, Pomegranate &amp; Walnut dip</string>
 			<string>2,unit bake-at-home burger buns</string>
@@ -42,7 +42,7 @@ TIP: Don’t be tempted to flip your veggie patty early, letting it form a crust
 		<key>name</key>
 		<string>Speedy Lemon Basil Pesto Penne</string>
 		<key>tag</key>
-		<string>vegetarian</string>
+		<string>vegeterian</string>
 		<key>energy</key>
 		<string>1654 Cal</string>
 		<key>time</key>
@@ -86,9 +86,9 @@ TIP: Don’t be tempted to flip your veggie patty early, letting it form a crust
 			<string>1,bunch thyme</string>
 			<string>1,bunch coriander	</string>
 			<string>1,unit lemon</string>
-			<string>½,coconut milk</string>
+			<string>0.5,coconut milk</string>
 			<string>300,g pumpkin</string>
-			<string>¾,cup Jasmine rice</string>
+			<string>0.75,cup Jasmine rice</string>
 		</array>
 		<key>steps</key>
 		<string>1.To prepare the ingredients, trim the beef rump fat. Finely slice the brown onion and slice the lime into wedges. Peel and crush the garlic. Remove the pumpkin skin and cut into 2 cm pieces. Rinse the Jasmine rice well. Pick the coriander leaves.					
@@ -121,7 +121,7 @@ TIP: Don’t be tempted to flip your veggie patty early, letting it form a crust
 			<string>1,unit carrot</string>
 			<string>1,tin lentils</string>
 			<string>1,cube vegetable stock</string>
-			<string>½,tub cooking cream</string>
+			<string>0.5,tub cooking cream</string>
 		</array>
 		<key>steps</key>
 		<string>1.Preheat the oven to 220ºC/200ºC fan-forced. Peel and crush the garlic. Lightly soften the butter in a small bowl in the microwave (or in a small saucepan on the stove). Finely chop the brown onion. Thinly slice the leek. Cut the carrot (unpeeled) into 0.5 cm half-moons. Pick the thyme leaves. Drain and rinse the lentils.

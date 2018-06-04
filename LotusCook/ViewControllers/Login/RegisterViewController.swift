@@ -1,10 +1,3 @@
-//
-//  RegisterViewController.swift
-//  LotusCook
-//
-//  Created by Luochun on 2018/5/20.
-//  Copyright © 2018年 Elase. All rights reserved.
-//
 
 import UIKit
 
@@ -32,7 +25,7 @@ class RegisterViewController: MTBaseViewController {
         segment.thumbGradientColors = [MTColor.main, MTColor.main.withAlphaComponent(0.4)]
         
         segment.useShadow = true
-        segment.itemTitles = ["normal", "vegetarian"]
+        segment.itemTitles = ["normal", "vegeterian"]
         segment.didSelectItemWith = {(index, title) -> () in
             print("Selected item \(index)")
             

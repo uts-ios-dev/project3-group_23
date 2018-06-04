@@ -29,10 +29,10 @@ class MTBaseViewController: UIViewController {
     }
     
     
-    /// 导航背景
+    /// navi background color
     var style: navigationBarStyle = .white
     
-    /// 状态栏颜色设置
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         if style == .white {
             return .default
@@ -59,7 +59,7 @@ class MTBaseViewController: UIViewController {
 }
 
 extension MTBaseViewController {
-    // 添加导航左侧按钮
+
     func addNavigationBarLeftButton(_ taget: Any, action: Selector = #selector(popBack), image: UIImage? = UIImage(named: "nav_back")) {
         let leftButton: UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
         if style == .white {
@@ -83,7 +83,7 @@ extension MTBaseViewController {
         
     }
     
-    // 添加导航右侧按钮
+
     @discardableResult
     func addNavigationBarRightButton(_ taget: Any, action: Selector, image: UIImage)  -> UIButton {
         let rightButton: UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: 24, height: 24))
@@ -93,7 +93,7 @@ extension MTBaseViewController {
         return rightButton
     }
     
-    // 添加导航右侧按钮
+
     @discardableResult
     func addNavigationBarRightButton(_ taget: Any, action: Selector, text: String, color: UIColor? = .white) -> UIButton {
         let rightButton: UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: 68, height: 36))
@@ -108,7 +108,7 @@ extension MTBaseViewController {
     
 
     
-    // 返回
+    
     @objc func popBack() {
         if let root = self.navigationController?.viewControllers[0] {
             if root == self {

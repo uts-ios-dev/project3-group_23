@@ -1,10 +1,10 @@
 
 import Foundation
-import pop
+//import pop
 import UIKit
 
 extension ESTabBarController {
-    /// 创建Tab
+    /// create Tab
     static func createTabbar() -> UIViewController {
         let tabBarController = ESTabBarController()
 

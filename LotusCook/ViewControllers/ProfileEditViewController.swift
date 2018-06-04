@@ -1,10 +1,3 @@
-//
-//  ProfileEditViewController.swift
-//  LotusCook
-//
-//  Created by Luochun on 2018/5/20.
-//  Copyright © 2018年 Elase. All rights reserved.
-//
 
 import UIKit
 
@@ -18,7 +11,7 @@ class ProfileEditViewController: MTBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Eidt profile"
+        title = "Edit profile"
         
         addNavigationBarLeftButton(self)
         
@@ -26,7 +19,7 @@ class ProfileEditViewController: MTBaseViewController {
         
         dietSeg.thumbGradientColors = [MTColor.main, MTColor.main.withAlphaComponent(0.4)]
         
-        dietSeg.itemTitles = ["normal", "vegetarian"]
+        dietSeg.itemTitles = ["normal", "vegeterian"]
         dietSeg.didSelectItemWith = {(index, title) -> () in
             print("Selected item \(index)")
             

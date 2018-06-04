@@ -1,6 +1,3 @@
-//  UIView+Shadow.swift
-//
-// Copyright (c) 2016-2018年 Mantis Group. All rights reserved.
 
 import UIKit
 
@@ -8,7 +5,7 @@ import UIKit
 public extension UIView {
     // MARK: - Useful param to UIView in xib
     
-    /// 圆角
+    
     @IBInspectable public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
@@ -18,7 +15,7 @@ public extension UIView {
             layer.cornerRadius = newValue
         }
     }
-    /// 边角宽度
+    
     @IBInspectable public var borderWidth: CGFloat {
         get {
             return layer.borderWidth
@@ -27,7 +24,7 @@ public extension UIView {
             layer.borderWidth = newValue
         }
     }
-    /// 边角颜色
+   
     @IBInspectable public var borderColor: UIColor? {
         get {
             guard let color = layer.borderColor else { return nil }
@@ -39,25 +36,18 @@ public extension UIView {
     }
 }
 
-/// 阴影
+
 public struct Shadow {
-    /// 颜色
+  
     var color : UIColor
-    /// 偏移量
+   
     var offset : UIOffset
-    /// 透明度
+
     var opacity : CGFloat
-    /// 圆角
+ 
     var radius : CGFloat
     
-    
-    /// Init
-    ///
-    /// - Parameters:
-    ///   - color: 颜色
-    ///   - offset: 偏移量
-    ///   - opacity: 透明度
-    ///   - radius: 圆角
+
     public init( color : UIColor = UIColor.clear, offset : UIOffset = UIOffset.zero, opacity : CGFloat = 0, radius : CGFloat = 0) {
         self.color = color
         self.offset = offset
@@ -78,12 +68,7 @@ public struct Shadow {
 
 extension Shadow : Equatable {}
 
-/// 阴影 `Shadow` 对比
-///
-/// - Parameters:
-///   - lhs: Shadow
-///   - rhs: Shadow
-/// - Returns: 是否完全相等
+
 public func == (lhs: Shadow, rhs:Shadow) -> Bool
 {
     return lhs.color == rhs.color && lhs.offset == rhs.offset && lhs.opacity == rhs.opacity && lhs.radius == rhs.radius
@@ -102,7 +87,7 @@ public extension UIView
 {
     // MARK: - UIView Shadow
     
-    /// 阴影颜色
+  
     @IBInspectable
     public var shadowColor : UIColor?
         {
@@ -117,7 +102,7 @@ public extension UIView
         }
     }
     
-    /// 阴影偏移量
+   
     @IBInspectable
     public var shadowOffset : CGSize
         {
@@ -125,7 +110,7 @@ public extension UIView
         get { return layer.shadowOffset }
     }
     
-    /// 阴影透明度
+  
     @IBInspectable
     public var shadowOpacity : CGFloat
         {
@@ -133,7 +118,6 @@ public extension UIView
         get { return CGFloat(layer.shadowOpacity) }
     }
     
-    /// 阴影圆角
     @IBInspectable
     public var shadowRadius : CGFloat
         {
@@ -141,7 +125,7 @@ public extension UIView
         get { return layer.shadowRadius }
     }
     
-    /// 阴影 set/get
+    
     public var shadow : Shadow
         {
         set
@@ -162,7 +146,7 @@ public extension UIView
         }
     }
     
-    /// 添加普通阴影
+  
     public func applyPlainShadow() {
         let layer = self.layer
         
@@ -172,7 +156,7 @@ public extension UIView
         layer.shadowRadius = 4
     }
     
-    /// 添加立体阴影
+
     public func applyCurvedShadow() {
         let size = self.bounds.size
         let width = size.width
@@ -206,7 +190,7 @@ public extension UIView
         layer.shadowOffset = CGSize(width: 0, height: -3)
     }
     
-    /// 添加漂浮阴影
+  
     public func applyHoverShadow() {
         let size = self.bounds.size
         let width = size.width

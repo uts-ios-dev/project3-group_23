@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,24 +31,35 @@
 		4B341D7720AD4F7000456E59 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5220AD4F6F00456E59 /* ESTabBar.swift */; };
 		4B341D7820AD4F7000456E59 /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5320AD4F6F00456E59 /* ESTabBarItemContainer.swift */; };
 		4B341D7920AD4F7000456E59 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5420AD4F6F00456E59 /* Config.swift */; };
-		4B341D7A20AD4F7000456E59 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B341D5620AD4F6F00456E59 /* pop.framework */; };
-		4B341D7B20AD4F7000456E59 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B341D5720AD4F6F00456E59 /* EasyPeasy.framework */; };
 		4B341D7C20AD4F7000456E59 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5920AD4F6F00456E59 /* MineViewController.swift */; };
 		4B341D7E20AD4F7000456E59 /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5B20AD4F6F00456E59 /* MealsViewController.swift */; };
 		4B341D7F20AD4F7000456E59 /* TabbarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5C20AD4F6F00456E59 /* TabbarContentView.swift */; };
-		4B341D8020AD4F7000456E59 /* DateLinkageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5D20AD4F6F00456E59 /* DateLinkageViewController.swift */; };
 		4B341D8120AD4F7000456E59 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5E20AD4F6F00456E59 /* RecipesViewController.swift */; };
 		4B341D8220AD4F7000456E59 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D5F20AD4F6F00456E59 /* ShoppingViewController.swift */; };
-		4B341D8320AD4F7000456E59 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D6020AD4F6F00456E59 /* CollapsibleTableViewHeader.swift */; };
 		4B341D8420AD4F7000456E59 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D6220AD4F6F00456E59 /* LoginViewController.swift */; };
 		4B341D8520AD4F7000456E59 /* MTNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D6320AD4F6F00456E59 /* MTNavigationViewController.swift */; };
 		4B341D8620AD4F7000456E59 /* MTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D6420AD4F6F00456E59 /* MTBaseViewController.swift */; };
 		4B341D8720AD4F7000456E59 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B341D6520AD4F7000456E59 /* Login.storyboard */; };
-		4B341D8820AD4FDF00456E59 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B341D5620AD4F6F00456E59 /* pop.framework */; };
-		4B341D8920AD4FDF00456E59 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B341D5620AD4F6F00456E59 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B341D8A20AD4FDF00456E59 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B341D5720AD4F6F00456E59 /* EasyPeasy.framework */; };
-		4B341D8B20AD4FDF00456E59 /* EasyPeasy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B341D5720AD4F6F00456E59 /* EasyPeasy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B341D8F20AD55DB00456E59 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B341D8E20AD55DB00456E59 /* IndexViewController.swift */; };
+		4B81C9BE20BD0C5200FDCB80 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9AA20BD0C5200FDCB80 /* M13CheckboxExpandController.swift */; };
+		4B81C9BF20BD0C5200FDCB80 /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9AB20BD0C5200FDCB80 /* M13CheckboxSpiralController.swift */; };
+		4B81C9C020BD0C5200FDCB80 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9AC20BD0C5200FDCB80 /* M13CheckboxFadeController.swift */; };
+		4B81C9C120BD0C5200FDCB80 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9AD20BD0C5200FDCB80 /* M13CheckboxFlatController.swift */; };
+		4B81C9C220BD0C5200FDCB80 /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9AE20BD0C5200FDCB80 /* M13CheckboxFillController.swift */; };
+		4B81C9C320BD0C5200FDCB80 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9AF20BD0C5200FDCB80 /* M13CheckboxStrokeController.swift */; };
+		4B81C9C420BD0C5200FDCB80 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B020BD0C5200FDCB80 /* M13CheckboxBounceController.swift */; };
+		4B81C9C520BD0C5200FDCB80 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B120BD0C5200FDCB80 /* M13CheckboxDotController.swift */; };
+		4B81C9C620BD0C5200FDCB80 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B320BD0C5200FDCB80 /* M13CheckboxPathGenerator.swift */; };
+		4B81C9C720BD0C5200FDCB80 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B420BD0C5200FDCB80 /* M13CheckboxCheckPathGenerator.swift */; };
+		4B81C9C820BD0C5200FDCB80 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B520BD0C5200FDCB80 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		4B81C9C920BD0C5200FDCB80 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B620BD0C5200FDCB80 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		4B81C9CA20BD0C5200FDCB80 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B720BD0C5200FDCB80 /* M13CheckboxRadioPathGenerator.swift */; };
+		4B81C9CB20BD0C5200FDCB80 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B820BD0C5200FDCB80 /* M13Checkbox.swift */; };
+		4B81C9CC20BD0C5200FDCB80 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9B920BD0C5200FDCB80 /* M13CheckboxAnimationGenerator.swift */; };
+		4B81C9CD20BD0C5200FDCB80 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9BA20BD0C5200FDCB80 /* DefaultValues.swift */; };
+		4B81C9CE20BD0C5200FDCB80 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9BB20BD0C5200FDCB80 /* M13CheckboxGestureRecognizer.swift */; };
+		4B81C9CF20BD0C5200FDCB80 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9BC20BD0C5200FDCB80 /* M13CheckboxController.swift */; };
+		4B81C9D020BD0C5200FDCB80 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81C9BD20BD0C5200FDCB80 /* M13Checkbox+IB.swift */; };
 		4BD7959220B14CA100E6B594 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD7959120B14CA100E6B594 /* RegisterViewController.swift */; };
 		4BD7959420B1510400E6B594 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD7959320B1510300E6B594 /* User.swift */; };
 		4BD7959620B157B100E6B594 /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD7959520B157B000E6B594 /* TTSegmentedControl.swift */; };
@@ -86,9 +97,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				4BD795B520B1A80800E6B594 /* Realm.framework in Embed Frameworks */,
-				4B341D8920AD4FDF00456E59 /* pop.framework in Embed Frameworks */,
 				4BD795B720B1A80800E6B594 /* RealmSwift.framework in Embed Frameworks */,
-				4B341D8B20AD4FDF00456E59 /* EasyPeasy.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,20 +131,35 @@
 		4B341D5220AD4F6F00456E59 /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
 		4B341D5320AD4F6F00456E59 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
 		4B341D5420AD4F6F00456E59 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		4B341D5620AD4F6F00456E59 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pop.framework; sourceTree = "<group>"; };
-		4B341D5720AD4F6F00456E59 /* EasyPeasy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EasyPeasy.framework; sourceTree = "<group>"; };
 		4B341D5920AD4F6F00456E59 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		4B341D5B20AD4F6F00456E59 /* MealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
 		4B341D5C20AD4F6F00456E59 /* TabbarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarContentView.swift; sourceTree = "<group>"; };
-		4B341D5D20AD4F6F00456E59 /* DateLinkageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateLinkageViewController.swift; sourceTree = "<group>"; };
 		4B341D5E20AD4F6F00456E59 /* RecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		4B341D5F20AD4F6F00456E59 /* ShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
-		4B341D6020AD4F6F00456E59 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
 		4B341D6220AD4F6F00456E59 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4B341D6320AD4F6F00456E59 /* MTNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTNavigationViewController.swift; sourceTree = "<group>"; };
 		4B341D6420AD4F6F00456E59 /* MTBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTBaseViewController.swift; sourceTree = "<group>"; };
 		4B341D6520AD4F7000456E59 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		4B341D8E20AD55DB00456E59 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		4B81C9AA20BD0C5200FDCB80 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		4B81C9AB20BD0C5200FDCB80 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		4B81C9AC20BD0C5200FDCB80 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		4B81C9AD20BD0C5200FDCB80 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		4B81C9AE20BD0C5200FDCB80 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		4B81C9AF20BD0C5200FDCB80 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		4B81C9B020BD0C5200FDCB80 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		4B81C9B120BD0C5200FDCB80 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		4B81C9B320BD0C5200FDCB80 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		4B81C9B420BD0C5200FDCB80 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		4B81C9B520BD0C5200FDCB80 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		4B81C9B620BD0C5200FDCB80 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		4B81C9B720BD0C5200FDCB80 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		4B81C9B820BD0C5200FDCB80 /* M13Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13Checkbox.swift; sourceTree = "<group>"; };
+		4B81C9B920BD0C5200FDCB80 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		4B81C9BA20BD0C5200FDCB80 /* DefaultValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultValues.swift; sourceTree = "<group>"; };
+		4B81C9BB20BD0C5200FDCB80 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		4B81C9BC20BD0C5200FDCB80 /* M13CheckboxController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = M13CheckboxController.swift; sourceTree = "<group>"; };
+		4B81C9BD20BD0C5200FDCB80 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "M13Checkbox+IB.swift"; sourceTree = "<group>"; };
 		4BD7959120B14CA100E6B594 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4BD7959320B1510300E6B594 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4BD7959520B157B000E6B594 /* TTSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSegmentedControl.swift; sourceTree = "<group>"; };
@@ -167,13 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD795B320B1A7F600E6B594 /* Realm.framework in Frameworks */,
-				4B341D7A20AD4F7000456E59 /* pop.framework in Frameworks */,
 				4BD795B220B1A7F600E6B594 /* RealmSwift.framework in Frameworks */,
-				4B341D8820AD4FDF00456E59 /* pop.framework in Frameworks */,
 				4BD795B420B1A80800E6B594 /* Realm.framework in Frameworks */,
-				4B341D7B20AD4F7000456E59 /* EasyPeasy.framework in Frameworks */,
 				4BD795B620B1A80800E6B594 /* RealmSwift.framework in Frameworks */,
-				4B341D8A20AD4FDF00456E59 /* EasyPeasy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +239,7 @@
 		4B341D3E20AD4F6F00456E59 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				4B81C9A720BD0C5200FDCB80 /* M13Checkbox */,
 				4BD795BD20B1BCE500E6B594 /* StatusProvider */,
 				4BD7959520B157B000E6B594 /* TTSegmentedControl.swift */,
 				4B341D3F20AD4F6F00456E59 /* STPopup */,
@@ -289,13 +310,61 @@
 		4B341D8D20AD549500456E59 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				4B341D5D20AD4F6F00456E59 /* DateLinkageViewController.swift */,
-				4B341D6020AD4F6F00456E59 /* CollapsibleTableViewHeader.swift */,
 				4B341D5C20AD4F6F00456E59 /* TabbarContentView.swift */,
 				4B341D6320AD4F6F00456E59 /* MTNavigationViewController.swift */,
 				4B341D6420AD4F6F00456E59 /* MTBaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		4B81C9A720BD0C5200FDCB80 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C9A820BD0C5200FDCB80 /* Sources */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		4B81C9A820BD0C5200FDCB80 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C9A920BD0C5200FDCB80 /* Managers */,
+				4B81C9B220BD0C5200FDCB80 /* Paths */,
+				4B81C9B820BD0C5200FDCB80 /* M13Checkbox.swift */,
+				4B81C9B920BD0C5200FDCB80 /* M13CheckboxAnimationGenerator.swift */,
+				4B81C9BA20BD0C5200FDCB80 /* DefaultValues.swift */,
+				4B81C9BB20BD0C5200FDCB80 /* M13CheckboxGestureRecognizer.swift */,
+				4B81C9BC20BD0C5200FDCB80 /* M13CheckboxController.swift */,
+				4B81C9BD20BD0C5200FDCB80 /* M13Checkbox+IB.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4B81C9A920BD0C5200FDCB80 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C9AA20BD0C5200FDCB80 /* M13CheckboxExpandController.swift */,
+				4B81C9AB20BD0C5200FDCB80 /* M13CheckboxSpiralController.swift */,
+				4B81C9AC20BD0C5200FDCB80 /* M13CheckboxFadeController.swift */,
+				4B81C9AD20BD0C5200FDCB80 /* M13CheckboxFlatController.swift */,
+				4B81C9AE20BD0C5200FDCB80 /* M13CheckboxFillController.swift */,
+				4B81C9AF20BD0C5200FDCB80 /* M13CheckboxStrokeController.swift */,
+				4B81C9B020BD0C5200FDCB80 /* M13CheckboxBounceController.swift */,
+				4B81C9B120BD0C5200FDCB80 /* M13CheckboxDotController.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4B81C9B220BD0C5200FDCB80 /* Paths */ = {
+			isa = PBXGroup;
+			children = (
+				4B81C9B320BD0C5200FDCB80 /* M13CheckboxPathGenerator.swift */,
+				4B81C9B420BD0C5200FDCB80 /* M13CheckboxCheckPathGenerator.swift */,
+				4B81C9B520BD0C5200FDCB80 /* M13CheckboxDisclosurePathGenerator.swift */,
+				4B81C9B620BD0C5200FDCB80 /* M13CheckboxAddRemovePathGenerator.swift */,
+				4B81C9B720BD0C5200FDCB80 /* M13CheckboxRadioPathGenerator.swift */,
+			);
+			path = Paths;
 			sourceTree = "<group>";
 		};
 		4BD7959920B15C4400E6B594 /* res */ = {
@@ -344,8 +413,6 @@
 		4BD795AF20B1A7EA00E6B594 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B341D5620AD4F6F00456E59 /* pop.framework */,
-				4B341D5720AD4F6F00456E59 /* EasyPeasy.framework */,
 				4BD795B120B1A7F600E6B594 /* Realm.framework */,
 				4BD795B020B1A7F600E6B594 /* RealmSwift.framework */,
 			);
@@ -402,11 +469,12 @@
 				TargetAttributes = {
 					4B341D2820AD4EF800456E59 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 4B341D2420AD4EF800456E59 /* Build configuration list for PBXProject "LotusCook" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -448,11 +516,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B81C9C920BD0C5200FDCB80 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
 				4BD795C020B1BCE500E6B594 /* DefaultStatusView.swift in Sources */,
 				4B341D7120AD4F7000456E59 /* UIViewController+STPopup.swift in Sources */,
 				4BD795BA20B1AADA00E6B594 /* GMStepper.swift in Sources */,
 				4BDE338220B7C3ED00740DB9 /* RecipesCell.swift in Sources */,
-				4B341D8020AD4F7000456E59 /* DateLinkageViewController.swift in Sources */,
 				4B341D6C20AD4F7000456E59 /* UIResponder+STPopup.swift in Sources */,
 				4B341D7F20AD4F7000456E59 /* TabbarContentView.swift in Sources */,
 				4B341D7820AD4F7000456E59 /* ESTabBarItemContainer.swift in Sources */,
@@ -460,39 +528,56 @@
 				4B341D7420AD4F7000456E59 /* ESTabBarItemContentView.swift in Sources */,
 				4BD795A320B16C2000E6B594 /* Recipes.swift in Sources */,
 				4B341D6820AD4F7000456E59 /* STPopupContainerViewController.swift in Sources */,
-				4B341D8320AD4F7000456E59 /* CollapsibleTableViewHeader.swift in Sources */,
+				4B81C9CF20BD0C5200FDCB80 /* M13CheckboxController.swift in Sources */,
+				4B81C9CA20BD0C5200FDCB80 /* M13CheckboxRadioPathGenerator.swift in Sources */,
 				4B341D8120AD4F7000456E59 /* RecipesViewController.swift in Sources */,
+				4B81C9C720BD0C5200FDCB80 /* M13CheckboxCheckPathGenerator.swift in Sources */,
 				4B341D6720AD4F7000456E59 /* STPopupNavigationBar.swift in Sources */,
+				4B81C9D020BD0C5200FDCB80 /* M13Checkbox+IB.swift in Sources */,
 				4B341D8F20AD55DB00456E59 /* IndexViewController.swift in Sources */,
 				4BD7959220B14CA100E6B594 /* RegisterViewController.swift in Sources */,
 				4B341D8420AD4F7000456E59 /* LoginViewController.swift in Sources */,
 				4B341D7220AD4F7000456E59 /* ESTabBarItemMoreContentView.swift in Sources */,
 				4B341D8220AD4F7000456E59 /* ShoppingViewController.swift in Sources */,
+				4B81C9C020BD0C5200FDCB80 /* M13CheckboxFadeController.swift in Sources */,
+				4B81C9BF20BD0C5200FDCB80 /* M13CheckboxSpiralController.swift in Sources */,
 				4B341D8620AD4F7000456E59 /* MTBaseViewController.swift in Sources */,
 				4BD795C120B1BCE500E6B594 /* StatusProvider.swift in Sources */,
 				4B341D6620AD4F7000456E59 /* Array+Extensions.swift in Sources */,
+				4B81C9C220BD0C5200FDCB80 /* M13CheckboxFillController.swift in Sources */,
+				4B81C9C120BD0C5200FDCB80 /* M13CheckboxFlatController.swift in Sources */,
 				4B341D6B20AD4F7000456E59 /* SelfAware.swift in Sources */,
+				4B81C9CD20BD0C5200FDCB80 /* DefaultValues.swift in Sources */,
 				4B341D7020AD4F7000456E59 /* STPopupControllerTransitioning.swift in Sources */,
 				4B341D2D20AD4EF800456E59 /* AppDelegate.swift in Sources */,
 				4B341D6E20AD4F7000456E59 /* STPopupControllerTransitioningContext.swift in Sources */,
+				4B81C9C520BD0C5200FDCB80 /* M13CheckboxDotController.swift in Sources */,
 				4B341D7320AD4F7000456E59 /* ESTabBarController.swift in Sources */,
 				4BD795A520B172EA00E6B594 /* RecipeDetailViewController.swift in Sources */,
 				4B341D8520AD4F7000456E59 /* MTNavigationViewController.swift in Sources */,
 				4BD795C320B1CF6100E6B594 /* MTAlert.swift in Sources */,
 				4BDE337D20B7AB2100740DB9 /* SearchViewController.swift in Sources */,
 				4BD7959420B1510400E6B594 /* User.swift in Sources */,
+				4B81C9CC20BD0C5200FDCB80 /* M13CheckboxAnimationGenerator.swift in Sources */,
 				4B341D6920AD4F7000456E59 /* STPopupControllerTransitioningSlideVertical.swift in Sources */,
 				4B341D7920AD4F7000456E59 /* Config.swift in Sources */,
 				4B341D6F20AD4F7000456E59 /* STPopupController.swift in Sources */,
+				4B81C9CB20BD0C5200FDCB80 /* M13Checkbox.swift in Sources */,
+				4B81C9C420BD0C5200FDCB80 /* M13CheckboxBounceController.swift in Sources */,
 				4BD7959620B157B100E6B594 /* TTSegmentedControl.swift in Sources */,
 				4B341D6A20AD4F7000456E59 /* STPopupControllerTransitioningFade.swift in Sources */,
 				4BD795AB20B18DDD00E6B594 /* UIView+Shadow.swift in Sources */,
 				4B341D7C20AD4F7000456E59 /* MineViewController.swift in Sources */,
+				4B81C9BE20BD0C5200FDCB80 /* M13CheckboxExpandController.swift in Sources */,
 				4BDE337F20B7C30600740DB9 /* UITableView+ext.swift in Sources */,
 				4B341D7520AD4F7000456E59 /* ESTabBarItem.swift in Sources */,
 				4B341D7720AD4F7000456E59 /* ESTabBar.swift in Sources */,
+				4B81C9C320BD0C5200FDCB80 /* M13CheckboxStrokeController.swift in Sources */,
+				4B81C9C820BD0C5200FDCB80 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
 				4B341D6D20AD4F7000456E59 /* STPopupLeftBarItem.swift in Sources */,
 				4BD795AE20B191A400E6B594 /* ProfileEditViewController.swift in Sources */,
+				4B81C9CE20BD0C5200FDCB80 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				4B81C9C620BD0C5200FDCB80 /* M13CheckboxPathGenerator.swift in Sources */,
 				4B341D7620AD4F7000456E59 /* ESTabBarItemBadgeView.swift in Sources */,
 				4BD795BC20B1B8FE00E6B594 /* UserDefaults+MTExt.swift in Sources */,
 			);
@@ -628,8 +713,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -647,11 +731,8 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = LotusCook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-Elase.LotusCook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -672,11 +753,8 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = LotusCook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-Elase.LotusCook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

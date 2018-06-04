@@ -1,10 +1,3 @@
-//
-//  Recipes.swift
-//  LotusCook
-//
-//  Created by Luochun on 2018/5/20.
-//  Copyright © 2018年 Elase. All rights reserved.
-//
 
 import Foundation
 import Realm
@@ -27,7 +20,13 @@ extension Recipe {
         
         let infos = NSArray(contentsOfFile: filePath) as! [JSONMap]
         var res :[Recipe] = []
-        infos.forEach({
+        infos.filter({
+            if let tag = $0["tag"] as? String, tag == "vegeterian" {
+                return User.shared().diet! == "vegeterian"
+            } else {
+                return true
+            }
+        }).forEach({
             let recipe = Recipe()
             recipe.name = $0["name"] as! String
             recipe.tag = $0["tag"] as! String

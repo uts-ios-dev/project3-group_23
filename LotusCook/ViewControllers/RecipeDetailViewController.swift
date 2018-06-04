@@ -1,10 +1,4 @@
-//
-//  RecipeDetailViewController.swift
-//  LotusCook
-//
-//  Created by Luochun on 2018/5/20.
-//  Copyright © 2018年 Elase. All rights reserved.
-//
+
 
 import UIKit
 
@@ -29,7 +23,7 @@ class RecipeDetailViewController: MTBaseViewController {
         iconImgView.image = UIImage(named: recipe.image)
         titleLabel.text = recipe.name
         
-        ingredientLabel.text = recipe.ingredients.map({ $0.0 + $0.1 }).joined(separator: "\n")
+        ingredientLabel.text = recipe.ingredients.map({ $0.0 + " " + $0.1 }).joined(separator: "\n")
         methedtitleLabel.text = recipe.steps
     }
 

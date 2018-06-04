@@ -3,7 +3,7 @@
 //  HealthBot
 //
 //  Created by Luochun on 2018/5/15.
-//  Copyright © 2018年 SpiderMan. All rights reserved.
+//  Copyright © 2018年 Maofei Pan. All rights reserved.
 //
 
 import Foundation
@@ -106,13 +106,13 @@ public extension UIStoryboard {
 public extension UIView {
     // MARK: - UIView Tap To Close Editing
     
-    /// 给 UIView 添加点击关闭编辑
+    
     public func addTapToCloseEditing() {
         let tapToHideKeyBoard = UITapGestureRecognizer(target: self, action: #selector(UIView.hideKeyboard))
         addGestureRecognizer(tapToHideKeyBoard)
     }
     
-    /// 隐藏键盘结束编辑
+   
     @objc public  func hideKeyboard() {
         endEditing(true)
     }
@@ -121,16 +121,11 @@ public extension UIView {
 }
 
 
-/// 取消任务Block
+
 public typealias CancelableTask = (_ cancel: Bool) -> ()
 
 
-/// 延迟执行事件
-///
-/// - Parameters:
-///   - time: 延迟时间
-///   - work: 执行事件
-/// - Returns: 取消 see `CancelableTask`
+
 @discardableResult
 public func delay(_ time: TimeInterval, work: @escaping ()->()) -> CancelableTask? {
     
@@ -156,17 +151,14 @@ public func delay(_ time: TimeInterval, work: @escaping ()->()) -> CancelableTas
 }
 
 
-/// 取消执行
+
 public func cancel(_ cancelableTask: CancelableTask?) {
     cancelableTask?(true)
 }
 
 public extension UIImage {
     
-    /// 根据颜色生成图片
-    ///
-    /// - Parameter color: 颜色
-    /// - Returns: 结果图片
+
     public static func image(withColor color: UIColor) -> UIImage {
         let rect = CGRect(x: 0.0, y: 0.0, width: 1.0, height: 1.0)
         UIGraphicsBeginImageContext(rect.size)
@@ -191,7 +183,7 @@ extension UIColor {
         self.init(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: a)
     }
     
-    /// 初始化 hex: 0xf3832d3
+    
     public convenience init(hex: Int, alpha: CGFloat = 1.0) {
         let red = CGFloat(CGFloat((hex & 0xFF0000) >> 16)/255.0)
         let green = CGFloat(CGFloat((hex & 0x00FF00) >> 8)/255.0)
@@ -200,11 +192,7 @@ extension UIColor {
     }
     
     
-    /// 初始化
-    ///
-    /// - parameter hexString: 16进制字符串 #223442 0x435353
-    /// - alpha: 透明度
-    /// - return: 颜色
+ 
     public convenience init?(_ hexString: String, alpha: CGFloat = 1.0) {
         var formatted = hexString.replacingOccurrences(of: "0x", with: "")
         formatted = formatted.replacingOccurrences(of: "#", with: "")
@@ -216,9 +204,7 @@ extension UIColor {
     }
     
     
-    /// conveniense init
-    ///
-    /// - Parameter hexStr: 16进制字符串   如：#aabbcc
+   
     public convenience init(_ hexStr: String) {
         var hex = hexStr.hasPrefix("#")
             ? String(hexStr.dropFirst())

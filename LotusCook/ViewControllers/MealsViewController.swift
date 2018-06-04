@@ -1,10 +1,3 @@
-//
-//  MealsViewController.swift
-//  HealthBot
-//
-//  Created by Luochun on 2018/5/15.
-//  Copyright © 2018年 SpiderMan. All rights reserved.
-//
 
 import UIKit
 
@@ -38,6 +31,8 @@ class MealsViewController: MTBaseViewController {
             placeholder {
                 (AppDelegate.root as! ESTabBarController).selectedIndex = 1
             }
+        } else {
+            self.hideStatus()
         }
     }
 

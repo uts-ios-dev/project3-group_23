@@ -1,15 +1,9 @@
-//
-//  GMStepper.swift
-//  GMStepper
-//
-//  Created by Gunay Mert Karadogan on 1/7/15.
-//  Copyright © 2015 Gunay Mert Karadogan. All rights reserved.
-//
+
 
 import UIKit
 
 
-/// 加减控件 Stepper
+
 @IBDesignable public class GMStepper: UIControl {
 
     /// Current value of the stepper. Defaults to 0.

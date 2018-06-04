@@ -1,10 +1,3 @@
-//
-//  UITableView+ext.swift
-//  LotusCook
-//
-//  Created by Luochun on 2018/5/25.
-//  Copyright © 2018年 Elase. All rights reserved.
-//
 
 import Foundation
 import  UIKit

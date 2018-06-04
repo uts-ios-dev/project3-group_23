@@ -1,10 +1,3 @@
-//
-//  MineViewController.swift
-//  HealthBot
-//
-//  Created by Luochun on 2018/5/15.
-//  Copyright © 2018年 SpiderMan. All rights reserved.
-//
 
 import UIKit
 
@@ -18,6 +11,7 @@ class MineViewController: MTBaseViewController {
         super.viewDidLoad()
         title = "Mine"
         addNavigationBarRightButton(self, action: #selector(editUserInfo), image: #imageLiteral(resourceName: "edit"))
+        
         
     }
     
@@ -39,7 +33,7 @@ class MineViewController: MTBaseViewController {
     
     
     @IBAction func logout(_ sender: UIButton) {
-        MTAlert(title: "Sign out?", message: "", preferredStyle: .alert)
+        MTAlert(title: "Are you sure log out?", message: "", preferredStyle: .alert)
             .addAction(title: "Cancel", style: .cancel) { (_) in
                 
             }.addAction(title: "Confirm", style: .default) { (_) in

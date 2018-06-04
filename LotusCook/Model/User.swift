@@ -1,10 +1,3 @@
-//
-//  User.swift
-//  Gfintech
-//
-//  Created by Luochun on 2017/2/20.
-//  Copyright © 2017年 Mantis. All rights reserved.
-//
 
 import Foundation
 import Realm
@@ -27,7 +20,7 @@ public class User: Object {
     @objc dynamic  var email: String?
     @objc dynamic var name: String?
     @objc dynamic var password: String?
-    @objc dynamic var diet: String?
+    @objc dynamic var diet: String?     //["normal", "vegeterian"]
     @objc dynamic var service: Int = 1
     
     

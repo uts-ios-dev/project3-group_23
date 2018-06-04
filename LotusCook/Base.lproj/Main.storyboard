@@ -199,13 +199,79 @@
                     <view key="view" contentMode="scaleToFill" id="shg-Bl-thB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QwS-H9-dmF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="55" id="fax-cI-b4C" customClass="CartCell" customModule="LotusCook" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fax-cI-b4C" id="Nja-bI-wcj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kwM-fZ-nDh">
+                                                    <rect key="frame" x="15" y="54" width="360" height="1"/>
+                                                    <color key="backgroundColor" red="0.85882352939999995" green="0.85882352939999995" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="0.5" id="vip-l5-Vlu"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2NH-bJ-1fi">
+                                                    <rect key="frame" x="60" y="19" width="295" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.10980392160000001" green="0.52156862749999999" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U08-Vp-WZb" customClass="M13Checkbox" customModule="LotusCook" customModuleProvider="target">
+                                                    <rect key="frame" x="20" y="13.5" width="28" height="28"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="28" id="WVL-8Z-JTh"/>
+                                                        <constraint firstAttribute="height" constant="28" id="xan-tc-wAQ"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="kwM-fZ-nDh" secondAttribute="trailing" id="1Vk-kK-Bfr"/>
+                                                <constraint firstAttribute="bottom" secondItem="kwM-fZ-nDh" secondAttribute="bottom" id="BZe-NJ-eep"/>
+                                                <constraint firstItem="2NH-bJ-1fi" firstAttribute="leading" secondItem="U08-Vp-WZb" secondAttribute="trailing" constant="12" id="Da3-td-Kqr"/>
+                                                <constraint firstItem="U08-Vp-WZb" firstAttribute="centerY" secondItem="Nja-bI-wcj" secondAttribute="centerY" id="RJU-Ak-pwq"/>
+                                                <constraint firstItem="U08-Vp-WZb" firstAttribute="leading" secondItem="Nja-bI-wcj" secondAttribute="leading" constant="20" id="XfJ-Yw-xsW"/>
+                                                <constraint firstAttribute="trailing" secondItem="2NH-bJ-1fi" secondAttribute="trailing" constant="20" id="gUZ-iP-2mk"/>
+                                                <constraint firstItem="kwM-fZ-nDh" firstAttribute="leading" secondItem="Nja-bI-wcj" secondAttribute="leadingMargin" id="rb0-4g-pgB"/>
+                                                <constraint firstItem="2NH-bJ-1fi" firstAttribute="centerY" secondItem="Nja-bI-wcj" secondAttribute="centerY" id="zDO-Wy-KgO"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="checkbox" destination="U08-Vp-WZb" id="N6y-Nw-nuN"/>
+                                            <outlet property="titleLabel" destination="2NH-bJ-1fi" id="UF5-y1-Qdj"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="aPl-jh-Zkh" id="g7y-Q7-giA"/>
+                                    <outlet property="delegate" destination="aPl-jh-Zkh" id="y3m-OZ-l83"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QwS-H9-dmF" firstAttribute="trailing" secondItem="NFA-d7-SGt" secondAttribute="trailing" id="6GW-Mn-Z9Q"/>
+                            <constraint firstItem="QwS-H9-dmF" firstAttribute="leading" secondItem="NFA-d7-SGt" secondAttribute="leading" id="Xnu-yK-gQY"/>
+                            <constraint firstItem="NFA-d7-SGt" firstAttribute="bottom" secondItem="QwS-H9-dmF" secondAttribute="bottom" id="v3E-wv-epL"/>
+                            <constraint firstItem="QwS-H9-dmF" firstAttribute="top" secondItem="NFA-d7-SGt" secondAttribute="top" id="wrg-wZ-3hk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NFA-d7-SGt"/>
                     </view>
+                    <connections>
+                        <outlet property="tableview" destination="QwS-H9-dmF" id="S7c-1u-26v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2g7-xE-R1U" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1217" y="-9"/>
+            <point key="canvasLocation" x="1216.8" y="-9.4452773613193415"/>
         </scene>
         <!--Mine View Controller-->
         <scene sceneID="bHQ-U6-gz8">

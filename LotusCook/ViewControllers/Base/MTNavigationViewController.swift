@@ -12,7 +12,7 @@ class MTNavigationController: UINavigationController {
         super.viewDidLoad()
         
         
-        navigationBar.isTranslucent = false   // 不透明
+        navigationBar.isTranslucent = false   // not transparent
         self.navigationBar.backgroundColor = nil
         navigationBar.shadowImage = UIImage()       // hide bottom border
         navigationBar.barStyle = .default
@@ -114,7 +114,7 @@ extension MTNavigationController: UINavigationControllerDelegate {
 
 
 extension UINavigationController {
-    /// 状态栏颜色设置
+   
     open override var childViewControllerForStatusBarStyle: UIViewController? {
         return self.topViewController
     }
@@ -126,7 +126,7 @@ extension UINavigationController {
 
 fileprivate extension UIImage {
 
-    /// 根据颜色生成图片
+  
     static func imageWith(_ color: UIColor) -> UIImage {
         let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
         UIGraphicsBeginImageContext(rect.size)
